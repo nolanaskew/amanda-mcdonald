@@ -1,4 +1,5 @@
-import HelloWorld from '../component/hello-world'
+import Header from '../component/header'
+import css from './index.module.css'
 import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
@@ -22,8 +23,9 @@ export default function Home() {
     <div>
       <title>Amanda McDonald</title>
     <div className="example">
-      <HelloWorld />
+      <Header />
     </div>
+    <h1 className={css.h1}>Explore</h1>
     <div>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>

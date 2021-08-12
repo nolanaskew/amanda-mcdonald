@@ -1,7 +1,9 @@
 :root {
-  --some-color: red;
+  --font-color: black;
+  --font: 'Times New Roman', Times, serif;
 }
 
 body {
-  color: var(--some-color);
+  color: var(--font-color);
+  font-family: var(--font);
 }
