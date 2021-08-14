@@ -20,6 +20,46 @@
   float: right;
 }
 
+.dropdown {
+  display: inline-block;
+  position: absolute;
+  left: 1480px;
+  top: 23px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: 36pt;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownContent {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {display: block;}
+
+
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
