@@ -70,6 +70,49 @@
     font-size: 24pt;
 }
 
+.aboutMeText {
+    font-size: 18pt;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 43%;
+    width: 15%;
+}
+
+.button:link, .button:visited {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    box-shadow: 0px 0px 0px 2px black;
+    padding: 0px 5px 0px 5px;
+    font-size: 24pt;
+    background-color: white;
+    border-top: 10px;
+    width: 200px;
+    height: auto;
+    text-decoration: none;
+}
+
+.button:hover, .button:active {
+    color: white;
+    background-color: black;
+}
+
+.button2:link, .button2:visited {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    box-shadow: 0px 0px 0px 2px black;
+    padding: 0px 30px 0px 30px;
+    font-size: 24pt;
+    background-color: white;
+    border-top: 10px;
+    height: auto;
+    text-decoration: none;
+}
+
+.button2:hover, .button2:active {
+    color: white;
+    background-color: black;
+}
+
 @media only screen and (max-width: 600px) {
     .h1 {
         font-size: 28pt;

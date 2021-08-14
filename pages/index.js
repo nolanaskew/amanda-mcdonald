@@ -1,4 +1,5 @@
 import Header from '../component/header'
+import Footer from '../component/footer'
 import MainComponent from '../component/main-component'
 import css from './index.module.css'
 import React, { useState, useCallback } from "react";
@@ -71,6 +72,7 @@ export default function Home() {
     <div className="example">
       <Header />
       <MainComponent />
+      <Footer />
     </div>
     <div>
       <Gallery photos={photos} onClick={openLightbox} />

@@ -1,0 +1,14 @@
+.wrapper {
+  font-size: 18pt;
+  overflow: hidden;
+  padding: 20px 10px;
+  border-top: 4px solid black;
+  margin-top: 5%;
+  padding-top: 40px;
+}
+
+.a, .a:visited {
+    text-decoration: none;
+    color: black;
+}
+

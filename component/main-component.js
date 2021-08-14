@@ -42,6 +42,11 @@ export default function MainComponent() {
 
         <h1 className={css.h1}>About Me</h1>
         <Image src={amanda} alt="Picture of me" width="236px" height="315px"/>
+        <div className={css.aboutMeText}>Hi! I'm Amanda McDonald. I'm an undergraduate student at UTK majoring in Studio Art with a minor in Art Education. Click below to learn more about me </div>
+        <a href="/about" className={css.button}>Learn More</a>
+        <br></br>
+        <br></br>
+        <a href="/contact" className={css.button2}>Contact</a>
       </div>
     )
   }
