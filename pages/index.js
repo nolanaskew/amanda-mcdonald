@@ -1,4 +1,5 @@
 import Header from '../component/header'
+import MainComponent from '../component/main-component'
 import css from './index.module.css'
 import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
@@ -24,8 +25,8 @@ export default function Home() {
       <title>Amanda McDonald</title>
     <div className="example">
       <Header />
+      <MainComponent />
     </div>
-    <h1 className={css.h1}>Explore</h1>
     <div>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
