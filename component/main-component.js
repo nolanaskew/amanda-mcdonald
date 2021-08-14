@@ -3,6 +3,7 @@ import css from './main-component.module.css'
 import clock from './images/clock.jpg'
 import peopleDrawing from './images/people_drawing.jpg'
 import beehive from './images/beehive.jpg'
+import amanda from './images/amanda.jpg'
 
 export default function MainComponent() {
     return (
@@ -38,6 +39,9 @@ export default function MainComponent() {
                 <a className={css.linkText} href="/painting">Painting</a>
             </div>
         </div>
+
+        <h1 className={css.h1}>About Me</h1>
+        <Image src={amanda} alt="Picture of me" width="236px" height="315px"/>
       </div>
     )
   }
