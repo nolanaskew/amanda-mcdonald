@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import css from './main-component.module.css'
+import css from './style/main-component.module.css'
 import clock from './images/clock.jpg'
 import peopleDrawing from './images/people_drawing.jpg'
 import beehive from './images/beehive.jpg'

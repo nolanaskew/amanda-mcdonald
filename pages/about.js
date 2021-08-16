@@ -1,15 +1,15 @@
 import Header from '../component/header'
 import Footer from '../component/footer'
-import MainComponent from '../component/main-component'
+import AboutComponent from "../component/about-component"
 
-export default function Home() {
+export default function About() {
 
   return (
     <div>
       <title>Amanda McDonald</title>
     <div>
       <Header />
-      <MainComponent />
+      <AboutComponent />
       <Footer />
     </div>
     </div>

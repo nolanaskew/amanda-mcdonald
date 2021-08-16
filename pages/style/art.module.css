@@ -1,0 +1,15 @@
+.gallery {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.h1 {
+    font-size: 36pt;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .h1 {
+        font-size: 28pt;
+    }
+}
