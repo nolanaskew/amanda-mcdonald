@@ -13,9 +13,12 @@ export default function Header() {
             <a href="/painting">Painting</a>
           </div>
         </div>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <div className={css.otherLinks}>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </div>
       </div> 
     </div>
   )
+  
 }

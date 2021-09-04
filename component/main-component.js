@@ -13,31 +13,19 @@ export default function MainComponent() {
             <div className={css.image}>
                 <Image src={peopleDrawing} alt="Drawing of people" width="236px" height="315px"/>
             </div>
-            <div className={css.mobileLinks}>
-                <a className={css.mobileLinkText} href="/drawing">Drawing</a>
-            </div>
+            <a className={css.mobileLinks} href="/drawing">Drawing</a>
             <div className={css.image}>
                 <Image src={clock} alt="Clock sculpture" width="236px" height="315px"/>
             </div>
-            <div className={css.mobileLinks}>
-                <a className={css.mobileLinkText} href="/sculpture">Sculpture</a>
-            </div>
+            <a className={css.mobileLinks} href="/sculpture">Sculpture</a>
             <Image src={beehive} alt="Beehive painting" width="236px" height="315px"/>
-            <div className={css.mobileLinks2}>
-                <a className={css.mobileLinkText} href="/painting">Painting</a>
-            </div>
+            <a className={css.mobileLinks} href="/painting">Painting</a>
         </div>
 
         <div className={css.flexText}>
-            <div className={css.links}>
-                <a className={css.linkText} href="/drawing">Drawing</a>
-            </div>
-            <div className={css.links}>
-                <a className={css.linkText} href="/sculpture">Sculpture</a>
-            </div>
-            <div className={css.links2}>
-                <a className={css.linkText} href="/painting">Painting</a>
-            </div>
+            <a className={css.links} href="/drawing">Drawing</a>
+            <a className={css.links} href="/sculpture">Sculpture</a>
+            <a className={css.links} href="/painting">Painting</a>
         </div>
 
         <h1 className={css.h1}>About Me</h1>
