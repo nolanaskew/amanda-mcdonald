@@ -10,15 +10,17 @@ export default function MainComponent() {
       <div className={css.wrapper}>
         <h1 className={css.h1}>Explore</h1>
         <div className={css.flexImages}>
-            <div className={css.image}>
-                <Image src={peopleDrawing} alt="Drawing of people" width="236px" height="315px"/>
-            </div>
+            <a className={css.image} href="/drawing">
+                <Image src={peopleDrawing} alt="Drawing of people" href="/drawing" width="236px" height="315px"/>
+            </a>
             <a className={css.mobileLinks} href="/drawing">Drawing</a>
-            <div className={css.image}>
-                <Image src={clock} alt="Clock sculpture" width="236px" height="315px"/>
-            </div>
+            <a className={css.image} href="/sculpture">
+                <Image src={clock} alt="Clock sculpture" href="/sculpture" width="236px" height="315px"/>
+            </a>
             <a className={css.mobileLinks} href="/sculpture">Sculpture</a>
+            <a className={css.image} href="/painting">
             <Image src={beehive} alt="Beehive painting" width="236px" height="315px"/>
+            </a>
             <a className={css.mobileLinks} href="/painting">Painting</a>
         </div>
 
