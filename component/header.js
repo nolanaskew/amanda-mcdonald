@@ -3,7 +3,7 @@ import css from './style/header.module.css'
 export default function Header() {
   return (
     <div className={css.header}>
-      <a href="/" className={css.logo}>Amanda McDonald</a>
+      <a href="/" className={css.logo}>Amanda Belle</a>
       <div className={css.headerRight}>
         <div className={css.dropdown}>
           <button className={css.dropbtn}>Art</button>
