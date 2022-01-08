@@ -5,49 +5,65 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 const photos = [
+  // white
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-    width: 4,
-    height: 3
+    src: "https://i.ibb.co/RjH5VW7/IMG-5381.jpg",
+    width: 2.1,
+    height: 2
   },
   {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-    width: 1,
-    height: 1
+    src: "https://i.ibb.co/88QCrDG/IMG-5348.jpg",
+    width: .4,
+    height: .5
+  },
+  {
+    src: "https://i.ibb.co/Xsh2VMn/IMG-5389.jpg",
+    width: 6,
+    height: 5
   },
   {
     src: "https://i.ibb.co/XkPWqpy/clock.jpg",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-    width: 4,
+    width: 2.5,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 3,
-    height: 4
+    src: "https://i.ibb.co/87TqfYz/IMG-7092.jpg",
+    width: 4,
+    height: 5
   },
   {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+    src: "https://i.ibb.co/8dt3tks/IMG-7090.jpg",
     width: 4,
+    height: 5
+  },
+  {
+    src: "https://i.ibb.co/DpLRXNb/IMG-9569.jpg",
+    width: 4,
+    height: 5
+  },
+  {
+    src: "https://i.ibb.co/M6R5qSw/IMG-9572-1.jpg",
+    width: 2,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-    width: 4,
+    src: "https://i.ibb.co/TPKmBfY/IMG-9564.jpg",
+    width: 2,
+    height: 2
+  },
+  {
+    src: "https://i.ibb.co/yQbJ6LQ/IMG-9578.jpg",
+    width: 3,
+    height: 3
+  },
+  {
+    src: "https://i.ibb.co/zGwTZs9/IMG-9551.jpg",
+    width: 3,
+    height: 3
+  },
+  {
+    src: "https://i.ibb.co/MnC6dGm/IMG-9555-1.jpg",
+    width: 3,
     height: 3
   }
 ];
