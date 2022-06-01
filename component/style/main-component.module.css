@@ -1,5 +1,6 @@
 .wrapper {
     text-align: center;
+    background-color: #FFDFEC;
 }
 
 .h1 {
@@ -10,6 +11,9 @@
     margin-right: 2.6%;
 }
 
+.content {
+    margin-top: 5%;
+}
 .flexImages {
     display: flex;
     flex-direction: row;
@@ -24,26 +28,25 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-left: 3%;
+    margin-top: 5%;
 }
 
 .links:link, .links:visited {
-    font-family: 'Times New Roman', Times, serif;
     color: black;
     box-shadow: 0px 0px 0px 2px black;
-    padding: 0px 5px 0px 5px;
-    font-size: 24pt;
+    padding: 100px 100px 100px 100px;
+    font-size: 48pt;
     background-color: white;
     border: black;
+    border-radius: 50%;
     text-decoration: none;
-    width: 220px;
-    height: 50px;
     margin-right: 3%;
     margin-top: -2px;
 }
 
 .links:hover, .links:active {
     color: white;
-    background-color: black;
+    background-color: #F99BB6;
 }
 
 .links2 {
@@ -99,7 +102,7 @@
 
 .button:hover, .button:active {
     color: white;
-    background-color: black;
+    background-color: #F99BB6;
 }
 
 .button2:link, .button2:visited {
@@ -116,7 +119,7 @@
 
 .button2:hover, .button2:active {
     color: white;
-    background-color: black;
+    background-color: #F99BB6;
 }
 
 @media only screen and (max-width: 600px) {

@@ -9,34 +9,16 @@ export default function MainComponent() {
     return (
       <div className={css.wrapper}>
         <h1 className={css.h1}>Explore</h1>
-        <div className={css.flexImages}>
-            <a className={css.image} href="/drawing">
-                <Image src={peopleDrawing} alt="Drawing of people" href="/drawing" width="236px" height="315px"/>
-            </a>
-            <a className={css.mobileLinks} href="/drawing">Drawing</a>
-            <a className={css.image} href="/sculpture">
-                <Image src={clock} alt="Clock sculpture" href="/sculpture" width="236px" height="315px"/>
-            </a>
-            <a className={css.mobileLinks} href="/sculpture">Sculpture</a>
-            <a className={css.image} href="/painting">
-            <Image src={beehive} alt="Beehive painting" width="236px" height="315px"/>
-            </a>
-            <a className={css.mobileLinks} href="/painting">Painting</a>
-        </div>
+
+        <a className={css.mobileLinks} href="/2D">2D</a>
+        <a className={css.mobileLinks} href="/3D">3D</a>
+        <a className={css.mobileLinks} href="/4D">4D</a>
 
         <div className={css.flexText}>
-            <a className={css.links} href="/drawing">Drawing</a>
-            <a className={css.links} href="/sculpture">Sculpture</a>
-            <a className={css.links} href="/painting">Painting</a>
+            <a className={css.links} href="/2D">2D</a>
+            <a className={css.links} href="/3D">3D</a>
+            <a className={css.links} href="/4D">4D</a>
         </div>
-
-        <h1 className={css.h1}>About Me</h1>
-        <Image src={amanda} alt="Picture of me" width="236px" height="315px"/>
-        <div className={css.aboutMeText}>Hi! I'm Amanda McDonald. I'm an undergraduate student at UTK majoring in Studio Art with a minor in Art Education. Click below to learn more about me </div>
-        <a href="/about" className={css.button}>Learn More</a>
-        <br></br>
-        <br></br>
-        <a href="/contact" className={css.button2}>Contact</a>
       </div>
     )
   }

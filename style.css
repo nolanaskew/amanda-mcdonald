@@ -1,6 +1,9 @@
+@import "~@fontsource/josefin-sans/index.css";
+
 :root {
   --font-color: black;
-  --font: 'Times New Roman', Times, serif;
+  --font: 'Josefin Sans';
+  background-color: #FFDFEC;
 }
 
 body {

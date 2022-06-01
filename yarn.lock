@@ -57,6 +57,16 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
+"@fontsource/josefin-sans@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/josefin-sans/-/josefin-sans-4.5.9.tgz#765c8fd84a51fdb3ba7bc6e0a2b9e0d58884a475"
+  integrity sha512-JrF46M/zzKd5xKBtgWyD2uhzS9IsB2EWDuEqRfPeA9QzIrmEVf43CwUIA1m5he1lZ06kCMJliSN8tsfqxZ4URw==
+
+"@fontsource/sacramento@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/sacramento/-/sacramento-4.5.8.tgz#5adb02f472a7d7c40edb9dd86b7db17187536096"
+  integrity sha512-I/7oPMT9BHns4bxaglBmqGlt4I1rmqp6JnBQFbej/HcnZGy1WlGy0OQBxgxuSE4vZIv0BTIjUY9m+zQ2gP6bxQ==
+
 "@hapi/accept@5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.2.tgz#ab7043b037e68b722f93f376afb05e85c0699523"
