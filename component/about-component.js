@@ -8,7 +8,7 @@ export default function AboutComponent() {
       <h1 className={css.h1}>About Me</h1>
       <div className={css.content}>
         <Image src={amanda} alt="Picture of me" width="236px" height="315px"/>
-        <div className={css.body}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nisl nisi. Nunc rutrum condimentum tincidun</div>
+        <div className={css.body}>Hi! I'm Amanda McDonald. I'm an undergraduate student at UTK majoring in Studio Art with a minor in Art Education. Click below to learn more about me </div>
       </div>
     </div>
   )

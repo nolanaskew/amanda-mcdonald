@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fontsource/josefin-sans": "^4.5.9",
+    "@fontsource/sacramento": "^4.5.8",
     "hamburger-menu": "^0.3.8",
     "next": "^11.1.0",
     "next-images": "^1.8.1",
