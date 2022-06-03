@@ -14,10 +14,8 @@ export default function Header() {
             <a href="/4D">4D</a>
           </div>
         </div>
-        <div className={css.otherLinks}>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-        </div>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
       </div> 
     </div>
   )

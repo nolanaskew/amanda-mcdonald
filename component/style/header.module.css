@@ -1,23 +1,20 @@
+@import "~@fontsource/josefin-sans/index.css";
+
 .header {
   font-size: 36pt;
   overflow: hidden;
-  padding: 20px 10px;
+  padding-top: 4px;
   margin-bottom: 3%;
   border-bottom: 4px solid black;
 }
 
-.border {
-  
-  position:relative;
-}
-
 .header a {
   float: left;
+  display: block;
   color: black;
   text-align: center;
-  padding: 12px;
+  padding: 14px 16px;
   text-decoration: none;
-  line-height: 25px;
   border-radius: 4px;
 }
 
@@ -26,21 +23,19 @@
 }
 
 .dropdown {
-  display: inline-block;
-  position: absolute;
-  margin-left: -5%;
+  float: left;
+  overflow: hidden;
 }
 
 /* Dropdown Button */
-.dropbtn {
+.dropdown .dropbtn {
   color: black;
   background-color: #FFDFEC;
   border: none;
+  padding: 14px 16px;
   font-size: 36pt;
-}
-
-.otherLinks {
-  margin-top: 1.2%;
+  font-family: 'Josefin Sans';
+  margin: 0;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -51,10 +46,12 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding-top: 15px;
   padding-bottom: 15px;
+  font-size: 18pt;
 }
 
 /* Links inside the dropdown */
 .dropdownContent a {
+  float: none;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
