@@ -14,8 +14,20 @@ export default function Header() {
             <a href="/4D">4D</a>
           </div>
         </div>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <div className={css.dropdown}>
+          <button className={css.dropbtn}>About</button>
+          <div className={css.dropdownContent}>
+            <a href="/statement">Artist Statement</a>
+            <a href="/about">About Me</a>
+          </div>
+        </div>
+        <div className={css.dropdown}>
+          <button className={css.dropbtn}>Contact</button>
+          <div className={css.dropdownContent}>
+            <a href="/cv">Resume/CV</a>
+            <a href="/contact">Contact</a>
+          </div>
+        </div>
       </div> 
     </div>
   )

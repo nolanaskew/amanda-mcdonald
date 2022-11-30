@@ -1,6 +1,5 @@
 import Header from '../component/header'
-import Footer from '../component/footer'
-import ContactComponent from "../component/contact-component"
+import ContactComponent from "../component/cv-component"
 
 export default function Contact() {
 

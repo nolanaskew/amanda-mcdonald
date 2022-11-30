@@ -15,7 +15,7 @@ export default function MainComponent() {
 					showThumbs={false} 
 					showStatus={false}
 					showArrows={false}
-					dynamicHeight
+					showIndicators={false}
 					stopOnHover={false}
 					width={'65%'}
 					>
@@ -86,10 +86,11 @@ export default function MainComponent() {
 			  </div>
 			
 			  <div className={css.buttons}>
+			  {/*
               <a className={css.mobileLinks} href="/2D">2D</a>
               <a className={css.mobileLinks} href="/3D">3D</a>
               <a className={css.mobileLinks} href="/4D">4D</a>
-
+	*/}
               <div className={css.flexText}>
                   <a className={css.links} href="/2D">2D</a>
                   <a className={css.links} href="/3D">3D</a>

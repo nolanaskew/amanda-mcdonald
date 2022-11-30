@@ -83,6 +83,7 @@ export default function D2() {
   return (
     <div>
       <title>Amanda McDonald</title>
+    <body style={{margin: 0, padding: 0, width: "100%", height: "100%", fontFamily: "Josefin Sans"}}>
     <div>
       <Header />
     </div>
@@ -104,7 +105,7 @@ export default function D2() {
         ) : null}
       </ModalGateway>
     </div>
-    <Footer />
+    </body>
     </div>
   )
 }

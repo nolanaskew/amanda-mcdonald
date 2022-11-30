@@ -12,10 +12,10 @@ export default function Home() {
       <title>Amanda McDonald</title>
       <link rel="icon" type="image/x-icon" href="favicon.ico"></link>
       </Head>
-    <body style={{backgroundColor: "#FFDFEC", width: "100%", height: "100%", fontFamily: "Josefin Sans"}}>
+    <body style={{margin: 0, padding: 0, width: "100%", height: "100%", fontFamily: "Josefin Sans"}}>
       <Header />
       <MainComponent />
-      <Footer />
+      {/*<Footer />*/}
     </body>
     </div>
   )

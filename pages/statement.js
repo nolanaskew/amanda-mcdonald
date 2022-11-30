@@ -1,8 +1,6 @@
 import Header from '../component/header'
-import Footer from '../component/footer'
-import ContactComponent from "../component/contact-component"
-
-export default function Contact() {
+import StatementComponent from "../component/statement-component"
+export default function Statement() {
 
   return (
     <div>
@@ -10,7 +8,7 @@ export default function Contact() {
       <body style={{margin: 0, padding: 0, width: "100%", height: "100%", fontFamily: "Josefin Sans"}}>
     <div>
       <Header />
-      <ContactComponent />
+      <StatementComponent />
     </div>
     </body>
     </div>

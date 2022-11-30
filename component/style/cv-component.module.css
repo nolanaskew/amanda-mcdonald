@@ -1,0 +1,26 @@
+.h1 {
+    font-size: 36pt;
+}
+
+.wrapper {
+    margin-left: 10%;
+}
+.h2 {
+    margin-top: 3%;
+}
+
+.text {
+    font-size: 18pt;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-right: 50%;
+}
+@media only screen and (max-width: 600px) {
+    .h1 {
+        font-size: 28pt;
+    }
+}

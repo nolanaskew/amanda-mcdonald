@@ -5,7 +5,8 @@
   overflow: hidden;
   padding-top: 4px;
   margin-bottom: 3%;
-  border-bottom: 4px solid black;
+  border-bottom: 4px;
+  background-color:#F99BB6;
 }
 
 .header a {
@@ -30,7 +31,7 @@
 /* Dropdown Button */
 .dropdown .dropbtn {
   color: black;
-  background-color: #FFDFEC;
+  background-color: #F99BB6;
   border: none;
   padding: 14px 16px;
   font-size: 36pt;
@@ -44,6 +45,7 @@
   position: absolute;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #F99BB6;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 18pt;
@@ -61,11 +63,6 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdownContent {display: block;}
 
-@media screen and (max-width: 1300px) {
-  .dropdown {
-    margin-left: -9%;
-  }
-}
 @media screen and (max-width: 800px) {
   .header {
    margin-bottom: 20%;
@@ -81,9 +78,8 @@
   }
   .dropdown {
     margin-left: 1.5%;
-    margin-top: -10%;
   }
-  .dropbtn {
+  .dropdown .dropbtn {
     font-size: 24px;
   }
   .otherLinks {
