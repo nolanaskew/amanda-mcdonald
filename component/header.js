@@ -17,15 +17,15 @@ export default function Header() {
         <div className={css.dropdown}>
           <button className={css.dropbtn}>About</button>
           <div className={css.dropdownContent}>
-            <a href="/statement">Artist Statement</a>
-            <a href="/about">About Me</a>
+            <a href="/about" style={{textAlign: "left"}}>About Me</a>
+            <a href="/statement" style={{textAlign: "left"}}>Artist Statement</a>
           </div>
         </div>
         <div className={css.dropdown}>
           <button className={css.dropbtn}>Contact</button>
           <div className={css.dropdownContent}>
-            <a href="/cv">Resume/CV</a>
             <a href="/contact">Contact</a>
+            <a href="/resume">Resume</a>
           </div>
         </div>
       </div> 

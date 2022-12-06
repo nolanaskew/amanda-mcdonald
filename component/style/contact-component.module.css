@@ -10,7 +10,8 @@
 }
 
 .text {
-    font-size: 18pt;
+    font-size: 24pt;
+    margin-top: 24px;
 }
 
 .main {
@@ -19,6 +20,12 @@
     text-align: left;
     margin-right: 50%;
 }
+
+.links {
+    text-decoration: none;
+    margin-right: 2%;
+}
+
 @media only screen and (max-width: 600px) {
     .h1 {
         font-size: 28pt;

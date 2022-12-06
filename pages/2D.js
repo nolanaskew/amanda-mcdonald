@@ -36,12 +36,12 @@ const photos = [
     height: 4
   },
   {
-    src: "https://i.ibb.co/mHVTMph/20210903-173119.jpg",
+    src: "https://i.ibb.co/CmPQLPs/IMG-3105.jpg",
     width: 3,
     height: 4
   },
   {
-    src: "https://i.ibb.co/P5JXfHj/beehive.jpg",
+    src: "https://i.ibb.co/m8k8Gnr/IMG-3098.jpg",
     width: 3,
     height: 4
   },

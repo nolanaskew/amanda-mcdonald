@@ -7,8 +7,9 @@
     justify-content: center;
 }
 .body {
-    width: 10%;
-    margin-left: 3%;
+    font-size: 14pt;
+    width: 35%;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 600px) {

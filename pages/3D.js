@@ -7,27 +7,37 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 const photos = [
   // white
   {
+    src: "https://i.ibb.co/mcy3khX/IMG-3263.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.ibb.co/0KBsms5/IMG-3262.jpg",
+    width: 3,
+    height: 4
+  },
+  {
     src: "https://i.ibb.co/gzsH1q8/IMG-1266-2.jpg",
     width: 3,
     height: 4
   },
   {
-    src: "https://i.ibb.co/4fcJwK0/IMG-0406.jpg",
+    src: "https://i.ibb.co/mzt7Rzq/IMG-2349.jpg",
     width: 4,
     height: 3
   },
   {
-    src: "https://i.ibb.co/ZYB6xR2/IMG-1096.jpg",
+    src: "https://i.ibb.co/fYTwNGV/IMG-3187.jpg",
     width: 3,
     height: 4
   },
   {
-    src: "https://i.ibb.co/Nr3R7z8/66406803854-5488-DA80-BBEF-45-BE-9-FC0-98-DD2-E4-FE91-B.jpg",
+    src: "https://i.ibb.co/WnB7cwB/IMG-8844.jpg",
     width: 3,
     height: 4
   },
   {
-    src: "https://i.ibb.co/6nHj35D/IMG-1103.jpg",
+    src: "https://i.ibb.co/4fcJwK0/IMG-0406.jpg",
     width: 4,
     height: 3
   },
@@ -40,16 +50,6 @@ const photos = [
     src: "https://i.ibb.co/vjSFPQP/IMG-2921.jpg",
     width: 4,
     height: 3
-  },
-  {
-    src: "https://i.ibb.co/RjH5VW7/IMG-5381.jpg",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://i.ibb.co/TPKmBfY/IMG-9564.jpg",
-    width: 3,
-    height: 4
   },
 ];
 export default function D3() {

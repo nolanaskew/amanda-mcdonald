@@ -1,24 +1,28 @@
 import css from "./style/contact-component.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTiktok, faInstagram } from "@fortawesome/free-brands-svg-icons"
-import { blackTie } from "fontawesome"
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons"
 
 export default function ContactComponent() {
   return (
     <div className={css.wrapper}>
       <h1 className={css.h1}>Contact</h1>
-      <h2 className={css.headers}>Contact</h2>
-      <div className={css.text}>amcdon23@vols.utk.edu</div>
-      <i class="fa-3x">
-        <a href="https://tiktok.com/@amandabelleart" target="_blank" style={{color: "black"}}><FontAwesomeIcon icon={faTiktok} /></a>
-        <a href="https://instagram.com/abelleart" target="_blank" style={{color: "black"}}><FontAwesomeIcon icon={faInstagram} /></a>
-      </i>
-      <h2 className={css.headers}>Education</h2>
-      <div className={css.text}>Central High School Salutatorian 2016-2020<br/>University of Tennessee, Knoxville 2020-Present</div>
-      <h2 className={css.h2}>Experience</h2>
-      <div className={css.text}>Liza Moz Pottery - May 2021-Present</div>
-      <h2 className={css.h2}>Awards</h2>
-      <div className={css.text}>Girl Scout Gold Award</div>
+      <div className={css.text}>
+      <a className={css.links} href="mailto: amcdon23@vols.utk.edu" style={{color: "black"}}><FontAwesomeIcon icon={faEnvelope} style={{marginRight: "10px"}}/>amcdon23@vols.utk.edu</a>
+      </div>
+
+      <div className={css.text}>
+      <a className={css.links} href="tel: +18652362836" style={{color: "black"}}><FontAwesomeIcon icon={faPhone} style={{marginRight: "10px"}}/>(865)236-2836</a> 
+      </div>
+
+      <div className={css.text}>
+      <a className={css.links} href="https://instagram.com/abelleart" target="_blank" style={{color: "black"}}><FontAwesomeIcon icon={faInstagram} style={{marginRight: "10px"}}/>abelleart</a>
+      </div>
+
+      <div className={css.text}>
+      <a className={css.links} href="https://tiktok.com/@amandabelleart" target="_blank" style={{color: "black"}}><FontAwesomeIcon icon={faTiktok} style={{marginRight: "10px"}}/>amandabelleart</a> 
+      </div> 
+      
       
     </div>
   )
